@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Romely Medium;
+  src: url(/fonts/Romely\ Medium.ttf);
+}
+@font-face {
+  font-family: Aligarh-SemiBold;
+  src: url(/fonts/Aligarh-SemiBold.ttf);
+}
+@font-face {
+  font-family: Gramers Medium;
+  src: url(/fonts/Gramers\ Medium.ttf);
+}
+
+@font-face {
+  font-family:  Mart;
+  src: url(/fonts/Mart.ttf);
+}
+
+html {
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #E8E6DA;
+}
+section{
+  display: flex;
+}
+.mainHeader {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerLeft {
+  width: 177px;
+  height: inherit;
+  font-family: Aligarh-SemiBold;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerRight {
+  width: 177px;
+  height: inherit;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu{
+  width: 18px;
+  height: 18px;
+}
+
+.social{
+  height: 480px;
+  width: 11.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social > a > svg{
+  width: 17px;
+  height: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.photobig{
+  height: 480px;
+  width: 410px;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
+
+.photobigsize{
+  height: 480px;
+  border-radius: 150px;
+}
+.photosmall{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.photosmallsize{
+  height: 100px;
+  border-radius: 100%;
+}
+
+.ustyazilar{
+  display: flex;
+  align-items: baseline;
+  font-family: Romely Medium;
+  width: 800px;
+  padding-left: 30px;
+  
+  
+
+}
+.sunsetyazi{
+  font-size: 72px;
+  width: 550px;
+  height: 315px;
+  
+}
+
+.landscapediv{
+  display: flex;
+  justify-content: center ;
+
+}
+
+.photo{
+  font-family: Romely Medium;
+  
+}
+
+.model{
+  color: #C5975B;
+}
+
+.land{
+  font-family: Romely Medium;
+}
+.scape{
+font-family: Gramers Medium;
+font-size: 64px;
+}
+
+.cizgifoto{
+  display: flex;
+  padding-left: 30px;
+
+}
+
+.cizgiyeri{
+  display: flex;
+  align-items: center;
+  width: 150px;
+  padding-bottom: 10px;
+  padding-right: 10px
+}
+
+.cizgi{
+  width: 150px;
+  height: 3px;
+  background-color: #000;
+}
+
+.fashion{
+  font-family: Mart;
+  width: 300px;
+  height: 165px;
+  letter-spacing: 2px;
+  text-align:left;
+  line-height: 20px;
+  
+
+}
+
+.deneme{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+footer{
+  width: 100vw;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+}
+
+.cizgifooter{
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  height: 20vh;
+  width: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.est{
+  
+  width: 25vw;
+  font-family: Romely Medium;
+  display: flex;
+  justify-content: center;
+}
+.estsize{
+  width: 8vw;
+  text-align: center;
+}
+.nav{
+  border-left: 2px solid;
+  border-right: 2px solid;
+  width: 50vw;
+  height: 15vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+   padding-left: 30px;
+  padding-right: 30px;
+  font-family: Mart;
+  
+}
+
+.nav > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.sharingan{
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+}
+
+.sharingansize{
+  height: 100px;
+  border-radius: 100%;
+}
+
+
